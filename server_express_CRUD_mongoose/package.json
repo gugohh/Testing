@@ -1,0 +1,24 @@
+{
+  "name": "demo_express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --verbose --silent",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.0.1",
+    "mongoose": "^5.13.4",
+    "node-fetch": "^2.6.1",
+    "pug": "^3.0.2",
+    "supertest": "^6.1.6"
+  },
+  "devDependencies": {
+    "jest": "^27.1.0"
+  }
+}
